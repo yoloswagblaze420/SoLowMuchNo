@@ -1,0 +1,118 @@
+﻿<Page
+    x:Class="_2190152_lab08_5631307821_5631378321.Page2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_2190152_lab08_5631307821_5631378321"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="1.5*"></RowDefinition>
+            <RowDefinition Height="1.5*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock
+            Text="Thanks for Your Submission!"  
+            Grid.Row="0"
+            Margin="15,10,10,34"
+            FontSize="30" VerticalAlignment="Center"
+        />
+        <TextBlock
+            Text="Name:"  
+            Grid.Row="1"
+            Margin="25,0,0,0"
+            FontSize="30" VerticalAlignment="Center"
+        />
+        <TextBlock
+            x:Name="name2" 
+            Grid.Row="1"
+            Margin="150,0,0,0"
+            FontSize="30" VerticalAlignment="Center"
+        />
+        <TextBlock
+            Text="Gender:"  
+            Grid.Row="2"
+            Margin="25,0,0,0"
+            FontSize="30" VerticalAlignment="Center"
+        />
+        <TextBlock
+            x:Name="gender2" 
+            Grid.Row="2"
+            Margin="150,0,0,0"
+            FontSize="30" VerticalAlignment="Center"
+        />
+        <TextBlock
+            Text="Height:"  
+            Grid.Row="3"
+            Margin="25,0,0,0"
+            FontSize="30" VerticalAlignment="Center"
+        />
+        <TextBlock
+            x:Name="height2" 
+            Grid.Row="3"
+            Margin="150,0,0,0"
+            FontSize="30" VerticalAlignment="Center"
+        />
+        <TextBlock
+            Text="Hobbies"  
+            Grid.Row="4"
+            Margin="25,0,0,0"
+            FontSize="60" VerticalAlignment="Center"
+        />
+        <Grid Grid.Row="5" Margin="0,0.333,0,114" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+           
+            <TextBlock
+                x:Name="hobby1"
+            Text=""  
+            Grid.Row="0"
+            Grid.Column="0"
+            Margin="25,0,0,0"
+            FontSize="35" VerticalAlignment="Center"
+             />
+            <TextBlock
+                x:Name="hobby2"
+            Text=""  
+            Grid.Row="0"
+            Grid.Column="1"
+            Margin="25,0,0,0"
+            FontSize="35" VerticalAlignment="Center"
+             />
+            <TextBlock
+                x:Name="hobby3"
+            Text=""  
+            Grid.Row="1"
+            Grid.Column="0"
+            Margin="25,0,0,0"
+            FontSize="35" VerticalAlignment="Center"
+             />
+            <TextBlock
+                 x:Name="hobby4"
+            Text=""  
+            Grid.Row="1"
+            Grid.Column="1"
+            Margin="25,0,0,0"
+            FontSize="35" VerticalAlignment="Center"
+             />
+
+
+
+
+        </Grid>
+        <Button  Content="Edit" HorizontalAlignment="Center" Margin="122,2,121,27" Grid.Row="6"  VerticalAlignment="Center" Height="91" Width="157" MinWidth="100" MinHeight="50" RenderTransformOrigin="3.9,1.007" FontSize="50" Click="Button_Click"/>
+    </Grid>
+</Page>
